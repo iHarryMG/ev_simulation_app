@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_height="160dip">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="120dip" android:text="Input EV IP address"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="320dip" android:orientation="horizontal" android:id="@+id/linearLayout2" android:layout_height="60dip">
+        <EditText android:layout_weight="1" android:layout_height="50dip" android:layout_width="match_parent" android:id="@+id/txtEvIP" android:layout_gravity="bottom" android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:layout_marginTop="10dip">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_width="320dip" android:orientation="vertical" android:layout_height="380dip" android:id="@+id/linearLayout3">
+        <LinearLayout android:layout_width="320dip" android:layout_height="match_parent" android:id="@+id/linearLayout1">
+            <LinearLayout android:layout_width="100dip" android:layout_height="match_parent" android:id="@+id/leftLinear"></LinearLayout>
+            <LinearLayout android:layout_width="120dip" android:orientation="vertical" android:layout_height="match_parent" android:id="@+id/middleLinear">
+                <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:layout_height="350dip" android:id="@+id/middleLinear">
+                    <TableRow android:layout_height="120dip" android:layout_width="match_parent" android:id="@+id/middleRow">
+                        <Button android:textColor="#000000" android:textSize="16px" android:layout_width="120dip" android:textStyle="bold" android:layout_height="60dip" android:layout_marginTop="10dip" android:text="SAVE" android:id="@+id/btnSaveEvIp"></Button>
+                    </TableRow>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="100dip" android:layout_height="match_parent" android:id="@+id/rightLinear"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

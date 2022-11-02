@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="320dip" android:orientation="horizontal" android:layout_height="20dip">
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:orientation="vertical" android:layout_height="380dip" android:layout_width="320dip">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_height="match_parent" android:layout_width="320dip">
+            <LinearLayout android:id="@+id/leftLinear" android:layout_width="100dip" android:layout_height="match_parent"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/middleLinear" android:layout_width="120dip" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/topLinear" android:layout_width="match_parent" android:layout_height="30dip"></LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/middleLinear" android:layout_width="match_parent" android:layout_height="350dip">
+                    <TableLayout android:layout_width="match_parent" android:id="@+id/buttonTableLayout" android:layout_height="350dip">
+                        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="25dip">
+                            <TextView android:textColor="#00ff12" android:textStyle="bold" android:layout_width="match_parent" android:id="@+id/textView1" android:layout_height="25dip" android:text="ELECTRIC" android:layout_gravity="center" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+                        </TableRow>
+                        <TableRow android:id="@+id/topRow" android:layout_width="match_parent" android:layout_height="25dip">
+                            <TextView android:layout_marginBottom="10dip" android:textColor="#00ff12" android:textStyle="bold" android:layout_width="match_parent" android:id="@+id/textView2" android:layout_height="25dip" android:text="VEHICLE" android:layout_gravity="center" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+                        </TableRow>
+                        <TableRow android:id="@+id/middleRow" android:layout_width="match_parent" android:layout_height="120dip">
+                            <Button android:id="@+id/btnControlEV" android:textColor="#000000" android:textSize="16px" android:layout_width="120dip" android:textStyle="bold" android:layout_height="80dip" android:background="@drawable/controlpanel1"></Button>
+                        </TableRow>
+                        <TableRow android:layout_height="120dip" android:layout_width="match_parent" android:id="@+id/bottomRow">
+                            <Button android:id="@+id/btnStateEV" android:textColor="#000000" android:textSize="16px" android:layout_marginTop="20dip" android:layout_width="120dip" android:textStyle="bold" android:background="@drawable/battery" android:layout_height="80dip"></Button>
+                        </TableRow>
+                        <TableRow android:layout_height="120dip" android:layout_width="match_parent" android:id="@+id/TableRow01">
+                            <Button android:textColor="#000000" android:textSize="16px" android:layout_marginTop="20dip" android:layout_width="120dip" android:textStyle="bold" android:id="@+id/btnSetting" android:layout_height="80dip" android:background="@drawable/control"></Button>
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/rightLinear" android:layout_width="100dip" android:layout_height="match_parent"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/bottomLinear" android:layout_height="wrap_content"></LinearLayout>
+
+</LinearLayout>

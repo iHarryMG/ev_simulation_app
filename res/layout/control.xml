@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/topLinearLayout" android:layout_height="50dip">
+    </LinearLayout>
+    <LinearLayout android:layout_width="320dip" android:orientation="horizontal" android:id="@+id/middleLinearLayout" android:layout_height="340dip">
+        <LinearLayout android:layout_height="match_parent" android:layout_width="160dip" android:id="@+id/leftLinearLayout">
+            <TableLayout android:layout_height="390dip" android:layout_width="160dip" android:id="@+id/leftTableLayout">
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow07">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView04" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:text="ENGINE" android:layout_marginBottom="5dip" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow08">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:textOff="STOP" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOn="START" android:id="@+id/btnEngine" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow05">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView03" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="DOORS" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow06">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOff="UNLOCK" android:textOn="LOCK" android:id="@+id/btnDoors" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow03">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView02" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="HEAD LIGHTS" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow04">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOn="ON" android:textOff="OFF" android:id="@+id/btnHeadLigths" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow01">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView01" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="ALARM" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow02">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOn="ON" android:textOff="OFF" android:id="@+id/btnAlarm" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="match_parent" android:layout_width="160dip" android:id="@+id/rightLinearLayout">
+            <TableLayout android:layout_height="390dip" android:layout_width="160dip" android:id="@+id/rightTableLayout">
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow16">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView07" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="AUDIO PLAYER" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow15">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOff="OFF" android:textOn="ON" android:id="@+id/btnAudioPlayer" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow12">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView08" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="TRUNK" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow11">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOff="UNLOCK" android:textOn="LOCK" android:id="@+id/btnTrunk" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow14">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView05" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="INTERIOR LIGHT" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow13">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOn="ON" android:textOff="OFF" android:soundEffectsEnabled="true" android:textStyle="bold" android:id="@+id/btnInteriorLight"></ToggleButton>
+                </TableRow>
+                <TableRow android:layout_width="160dip" android:layout_height="wrap_content" android:id="@+id/TableRow10">
+                    <TextView android:layout_width="160dip" android:id="@+id/TextView06" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_marginBottom="5dip" android:text="GPS" android:textStyle="bold"></TextView>
+                </TableRow>
+                <TableRow android:baselineAligned="false" android:layout_width="160dip" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/TableRow09">
+                    <ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginBottom="10dip" android:textOff="OFF" android:textOn="ON" android:id="@+id/btnGPS" android:soundEffectsEnabled="true" android:textStyle="bold"></ToggleButton>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:layout_height="20dip" android:id="@+id/bottomLinearLayout"></LinearLayout>
+</LinearLayout>
